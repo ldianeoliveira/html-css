@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lidiane Santos</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!--Barra de navegação-->
+   <header> 
+<nav>
+    <ul>
+        <li><a href="#sobre mim">Sobre Mim</a></li>
+        <li><a href="#Projetos">Projetos</a></li>
+        <li><a href="#contatos">Contatos</a></li>
+    </ul>
+</nav>
+
+</header> 
+   
+
+    <!--imagem e nome-->
+<div>
+    
+    <img src="WhatsApp Image 2024-05-17 at 16.58.18.jpeg" alt="Meu perfil" class="profile-img">
+
+    <h1>Lidiane Santos</h1>
+    <h2>Desenvolvedora Web Front-End</h2>
+
+</div>
+    
+
+    <!--sessão sobre mim -->
+
+    <section id="sobre">
+        <h3>Sobre Mim</h3>
+        <p> Me chamo Lidiane , tenho 31 anos e sou Desenvolvedora Web Front-End Iniciante. <br>
+        Estou a procura de novos desafios e entrei de cabeça no mundo da tecnologia! <br>
+        Meu Objetivo é alcançar novos projetos e evoluir nessa carreira. Meu conhecimento em HTML,CSS E JAVA SCRIPT ,me fazem almejar crescimento 
+        profissional e aprender novas linguagens de programação. <br>
+        Recentemente, terminei uma formação em Outsystems, e estou a estudar programação visual No-Code , onde meu propósito é misturar o meu conhecimento anterior com o design
+        e a programação, fazendo assim crescer meu conhecimento e podendo criar também mais experiências.
+        Tenho uma formação também em Base de Dados básica, onde tenho conhecimento sobre como é criada e como criar uma Base de Dados.
+     </p>
+
+    </section>
+
+    <!--seção projetos-->
+    <section id="projeto">
+        <h3>Projetos</h3>
+        <p>Deixo aqui alguns dos meu projetos criados em formação.</p>
+
+    </section>
+
+    <!--seção contatos-->
+
+    <section id="contatos">
+        <h3>Contatos</h3>
+        <p>Entre em contato comigo para um orçamento a sua maneira!</p>
+        <form>
+            <input type="text" placeholder="Nome" > 
+                    <input type="email" placeholder="E-mail">
+                    
+                    <input type="submit">
+        </form>
+        
+    </section>
+
+    <footer>
+        <p>Conecte-se comigo!!</p>
+        <a href="https://www.instagram.com/renda_digital_possivel/" target="_blank" rel="noopener nonoreferrer">Instagram</a>
+        <a href="https://www.facebook.com/ANA.SAMPAIO224" target="_blank" rel="noopener nonoreferrer">facebook</a>
+    </footer>
+</body>
+</html>
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+/*estilo da barra de navegação*/
+
+nav {
+    
+    background-color: #4CAF50;
+    padding: 15px;
+    
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+img{
+    border-radius: 60%;
+    width: 200px;
+    
+}
+
+/* estilo do titulo e subtitulo*/
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-top: 20px;
+
+}
+
+h2 {
+    color: #777;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+/* estilo das seçºoes */
+
+section {
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: left;
+}
+section h3 {
+    color: #4CAF50;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+section p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* estilo do radapé*/
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+
+footer a { 
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+footer a:hover{
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+form [type="submit"]{
+    height: 50px;
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+
+}
+form [type="submit"] :hover{
+    cursor: pointer;
